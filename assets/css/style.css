@@ -26,19 +26,29 @@
 --light-color: #fff;
 --gray-color: #808080;
 }
-
-
+body{
+    font-family: "ExpoArabic",sans-serif;
+}
 nav{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 5px 20px;
+  border-bottom:1px solid var(--primary-color);
 }
 nav a{
     padding-left: 10px;
+    color: var(--gray-color);
 
 }
 nav #logo{
-    width: 50px;
+}
+nav button{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    padding: 10px 35px;
+    border-radius: 10px;
+    border: none;
+    font-family: "ExpoArabic",sans-serif;
 }
