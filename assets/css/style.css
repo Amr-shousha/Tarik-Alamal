@@ -51,7 +51,9 @@ nav button{
     border: none;
     font-family: "ExpoArabic",sans-serif;
 }
-
+.container{
+    padding:30px;
+}
 header{
     height: 500px;
     display: flex;
