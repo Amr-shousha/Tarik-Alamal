@@ -61,12 +61,13 @@ header{
  justify-content: center;
      gap: 20px;
      background: url(../images/intro/intro.png) center /cover no-repeat  ;
+     color: var(--light-color);
 }
 header #smallerContent{
     display: flex;
     flex-direction: row;
     align-items: center;
-
+        gap: 5px;
 }
 header #smallerContent img{
     width: 30px;
