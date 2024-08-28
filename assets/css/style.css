@@ -1,4 +1,28 @@
 *{
     margin: 0px;
     box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+--primary-color: #2B4365;
+--secondary-color: #FCDABF;
+--dark-color: #000;
+--light-color: #fff;
+--gray-color: #808080;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+nav a{
+    padding-left: 10px;
+
+}
+nav #logo{
+    width: 50px;
 }
