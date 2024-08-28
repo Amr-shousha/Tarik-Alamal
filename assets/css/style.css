@@ -42,8 +42,7 @@ nav a{
     color: var(--gray-color);
 
 }
-nav #logo{
-}
+
 nav button{
     background-color: var(--primary-color);
     color: var(--light-color);
@@ -51,4 +50,22 @@ nav button{
     border-radius: 10px;
     border: none;
     font-family: "ExpoArabic",sans-serif;
+}
+
+header{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+ justify-content: center;
+     gap: 20px;
+     background: url(../images/intro/intro.png) center /cover no-repeat  ;
+}
+header #smallerContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+header #smallerContent img{
+    width: 30px;
 }
