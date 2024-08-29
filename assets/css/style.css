@@ -73,7 +73,17 @@ justify-content: center;
    width: 100%;
  max-width: 1400px;
 }
-
+.section-title{  
+      position: relative;
+}
+.section-title h1
+{ 
+    margin: 10px 0;
+}
+.section-title p{
+   color: var(--gray-color);
+    font-size: 24px;
+}
 header{
 
   height: 500px;
@@ -101,10 +111,9 @@ header #smallerContent{
 header #smallerContent img{
     width: 30px;
 }
-header #decoration{
+#decoration{
     position: absolute;
-    right: 20px;
-}
+right: 1px;}
 #features{
     display: flex;
     flex-direction: row;
@@ -232,22 +241,12 @@ width: 100%;
 #solutions{
     position: relative;
 }
-#solutions #decoration{
-position: absolute;
-right: 20px;
-top: 50px;
-}
+
 #solutions .container{
     position: relative;
-      padding:50px;
+      padding-top:50px;
 }
-#solutions h1{
-    margin:  10px 0;
-}
-#solutions p{
-    color: var(--gray-color);
-    font-size: 24px;
-}
+
 #solutions  #solutionsCards{
     display: flex;
     flex-direction:row ;
@@ -269,7 +268,7 @@ margin: 10px 0px;
     display: flex;
     align-items: center;
     gap: 30px;
-    padding:100px  0 50px 0 ;
+    padding:100px  0px 50px 0px ;
 }
 #solutions  #mainContent img{
     width: 600px;
@@ -279,9 +278,14 @@ margin: 10px 0px;
     margin: 20px 0;
 
 }
+#solutions  #mainContent p{
+    font-size: 24px;
+}
 #solutions  #mainContent #text{
     position: relative;
 
+}#solutions #decoration{
+    top:50px
 }
 
 #solutions  #mainContent #line {
@@ -290,3 +294,8 @@ position: absolute;
 right: -20px;
 }
 /* #solutions  #mainContent */
+
+#testimonials .container{
+    position: relative;
+
+}
