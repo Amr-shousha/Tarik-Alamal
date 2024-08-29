@@ -159,6 +159,102 @@ justify-content: space-between;
 font-size: 30px;
 }
   .features-section #mainContent p{
-    width: 420px;
+    width: 500px;
+    font-weight: 500;
+    font-size: 24px;
   }
 
+#servicesSection{
+    background: url(../images/services/service_6.png) center /cover no-repeat;
+    
+    color: var(--light-color);
+}
+ #servicesSection .container{
+
+    padding-top: 20px;
+    align-items: center;
+
+
+ }
+#servicesSection .container p{
+    width: 750px;
+ font-weight: 500;
+ text-align: center;
+
+    font-size: 24px;
+}
+#servicesSection .container h3{
+    margin: 20px;
+    font-size: 30px;
+     text-align: center;
+
+
+
+}
+#servicesSection .container #text{
+    height: 400px;
+}
+#servicesSection .container img{
+    margin-bottom: 10px;
+}
+ #servicesCards{
+   margin-top: -150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+ #servicesCards .card{
+
+   width: 400px;
+   border: solid var(--gray-color);
+   /* background-color: var(--secondary-color); */
+   color: var(--dark-color);
+}
+ #servicesCards .card h4{
+    font-size: 20px;
+    margin: 10px 0px;
+    
+}#servicesCards .card img{
+width: 100%;
+}
+#servicesCards .card p{
+    color: var(--gray-color);
+    font-size: 20px;
+}
+#servicesCards .card .content{
+    display: flex;
+    flex-direction: column;
+   padding:0 10px 30px 10px ;
+
+}
+
+
+/* 
+header{
+
+  height: 500px;
+    justify-content: center;
+     gap: 20px;
+     background: url(../images/intro/intro.png) center /cover no-repeat  ;
+     color: var(--light-color);
+}
+header .container{
+    position: relative;
+        padding:50px;
+
+
+   
+}
+header h1,h2 ,#smallerContent{
+    margin-top: 10px;
+}
+header #smallerContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   gap: 5px;
+}
+header #smallerContent img{
+    width: 30px;
+} */
