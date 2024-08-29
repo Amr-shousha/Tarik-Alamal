@@ -84,6 +84,10 @@ justify-content: center;
    color: var(--gray-color);
     font-size: 24px;
 }
+#decoration{
+  position: absolute;
+  right: -30px;
+}
 header{
 
   height: 500px;
@@ -111,9 +115,7 @@ header #smallerContent{
 header #smallerContent img{
     width: 30px;
 }
-#decoration{
-    position: absolute;
-right: 1px;}
+
 #features{
     display: flex;
     flex-direction: row;
@@ -284,8 +286,6 @@ margin: 10px 0px;
 #solutions  #mainContent #text{
     position: relative;
 
-}#solutions #decoration{
-    top:50px
 }
 
 #solutions  #mainContent #line {
@@ -297,5 +297,42 @@ right: -20px;
 
 #testimonials .container{
     position: relative;
+}
+#testimonials #mainContent{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+
+    margin:50px 0;
+}  
+/* #testimonials #mainContent #image{
+    display: flex;
+} */
+#testimonials #mainContent #biggerImage{
+    width: 400px;
+    padding-right: 20px;
+ 
+}
+#testimonials #mainContent #textContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+#testimonials #mainContent #textContent h3{
+    font-size: 30px;
+     color: var(--primary-color);
+}
+#testimonials #mainContent #textContent h4{
+    font-size: 18px;
+    margin :20px 0;
+   
+}
+#testimonials #mainContent #textContent p{
+    width: 500px;
+    font-size: 24px;
+    color: var(--gray-color);
 
 }
