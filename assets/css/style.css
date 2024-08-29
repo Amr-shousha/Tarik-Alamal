@@ -235,6 +235,7 @@ width: 100%;
 #solutions #decoration{
 position: absolute;
 right: 20px;
+top: 50px;
 }
 #solutions .container{
     position: relative;
@@ -253,11 +254,29 @@ right: 20px;
     flex-wrap:wrap ;
 justify-content: center;}
 #solutions  #solutionsCards .card{
-width: 350px;
+width: 300px;
 padding: 10px;
 
     
 }
 #solutions  #solutionsCards .card h3{
 margin: 10px 0px;
+}  
+
+#solutions  #mainContent{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding:10 0px 0 50px 0 ;
 }
+#solutions  #mainContent img{
+    width: 600px;
+}
+#solutions  #mainContent h3{
+    font-size: 30px;
+    margin: 20px 0;
+
+}
+
+#solutions  #mainContent
+#solutions  #mainContent
