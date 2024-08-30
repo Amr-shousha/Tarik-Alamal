@@ -48,7 +48,14 @@ nav a{
     color: var(--gray-color);
 
 }
-
+.button{
+     background-color: var(--primary-color);
+    color: var(--light-color);
+    padding: 10px 35px;
+    border-radius: 10px;
+    border: none;
+    font-family: "ExpoArabic",sans-serif;
+}
 nav button{
     background-color: var(--primary-color);
     color: var(--light-color);
@@ -363,4 +370,73 @@ right: -20px;
     position: absolute;
     right: -20px;
     top: 19px;
+}
+
+/* form */
+
+form table{
+text-align: right;  
+} 
+form{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: right;
+  
+}
+.input-form{
+
+  position: relative;
+}
+.main-input-form{
+  display: flex;
+  gap: 20px;
+}
+form textarea{
+  width: 640px;
+  border:1px solid var(--gray-color) ;  padding:20px;
+ font-family: "ExpoArabic",sans-serif;
+  resize: none;
+}
+#textarea img{
+   top: calc(20% - 12.5px );
+}
+form input{
+  /* width: 300px; */
+  height: 50px;
+  border:1px solid var(--gray-color) ;
+  padding: 0px 20px;
+font-family: "ExpoArabic",sans-serif;
+}
+
+.input-form{
+    display: flex;
+    flex-direction: column;
+}
+.input-form img{
+  height:25px ;
+  position: absolute;
+  top: calc(50% - 12.5px );
+  right: 10px; 
+}
+#formBtn{
+  width: 400px;
+  align-self: flex-end;
+ 
+  height: 40px;
+}
+#mainformContainer{
+    margin-top: 50px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+ gap: 50px;
+
+ 
+}
+
+#contactForm{
+    width: 500px;
 }
