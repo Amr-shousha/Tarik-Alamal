@@ -336,3 +336,31 @@ right: -20px;
     color: var(--gray-color);
 
 }
+ #mainContent #textContent #innerImage{
+    display: flex;
+    gap: 20px;
+ }
+ #qestionsContainer{
+     margin-top:50px ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+}  
+ #qestionsContainer .question {
+    width:400px;
+    position: relative;
+}
+#qestionsContainer .question p{
+    color: var(--gray-color);
+}
+#qestionsContainer .question h3 {
+ margin :20px 0;}
+#qestionsContainer .question img{
+    width:15px;
+    position: absolute;
+    right: -20px;
+    top: 19px;
+}
