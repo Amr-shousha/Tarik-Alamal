@@ -58,7 +58,6 @@ nav{
     background-color: var(--light-color);
 
 }
-
 nav .nav-container{
     display: flex;
     flex-direction: row;
@@ -68,11 +67,9 @@ nav .nav-container{
   border-bottom:1px solid var(--primary-color);
     padding:0px 30px;
 
-   width: 100%;
- max-width: 1400px;
+    width: 100%;
+  max-width: 1400px;
 }
-
-
 nav a{
     padding-left: 10px;
     color: var(--gray-color);
@@ -98,7 +95,6 @@ nav button{
     font-family: "ExpoArabic",sans-serif;
 }
 .section{
-    /* padding:30px; */
     display: flex;
     align-items: center;
  flex-direction: column;
@@ -110,9 +106,9 @@ nav button{
     display: flex;
     flex-direction: column;
 
-justify-content: center; 
-   width: 100%;
- max-width: 1400px;
+     justify-content: center; 
+       width: 100%;
+      max-width: 1400px;
 }
 .section-title{  
       position: relative;
@@ -131,7 +127,7 @@ justify-content: center;
 }
 header{
 
-  height: 500px;
+    height: 500px;
     justify-content: center;
      gap: 20px;
      background: url(../images/intro/intro.png) center /cover no-repeat  ;
@@ -156,6 +152,9 @@ header #smallerContent{
 header #smallerContent img{
     width: 30px;
 }
+header #decoration{
+right: 0px;
+}
 
 #features{
     display: flex;
@@ -167,7 +166,7 @@ header #smallerContent img{
     background-color: var(--primary-color);
     padding: 0 30px;
     border-radius: 10px;
-    margin-top: -10px;
+    margin-top: -90px;
     margin-bottom: 40px;
     position: absolute;
     top: -15px;
@@ -270,11 +269,7 @@ font-size: 30px;
    color: var(--dark-color);
    overflow: hidden;
 }
-/* .card :hover{
-   transform: rotate(20deg);
 
-} */
- 
 
 
 
@@ -365,7 +360,6 @@ width: 10px;
 position: absolute;
 right: -20px;
 }
-/* #solutions  #mainContent */
 
 #testimonials .container{
     position: relative;
@@ -378,9 +372,6 @@ right: -20px;
 
     margin:50px 0;
 }  
-/* #testimonials #mainContent #image{
-    display: flex;
-} */
 #testimonials #mainContent #biggerImage{
     width: 400px;
     padding-right: 20px;
