@@ -527,6 +527,7 @@ footer .container{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    /* padding: 15px 15px; */
 
 }
 footer{
@@ -534,11 +535,12 @@ footer{
     color: var(--light-color);
 }
 
-footer #mainfootercontent h4{
+footer  h4{
+    font-size: 16px;
     margin: 10px 0;
 }
 footer #mainfootercontent {
-    width: 500px;
+    max-width: 400px;
 }
 footer #pages{
    display: flex;
@@ -612,4 +614,13 @@ margin: 20px  auto ;
 .features-section-smaller {
     height: auto;
     display: none !important;
+}
+#questions .row{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.main-contact{
+    width: 100%;
+    justify-content: space-around;
+    
 }
